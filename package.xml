@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <name>raspimouse_pfot</name>
+
+  <version>0.2.0</version>
+
+  <description>Package for implement navigation with IMU, expansion resettings, and original recovery behaviors on Raspberry Pi Mouse.</description>
+
+  <maintainer email="ryo.okazaki.0929@gmail.com">Ryo Okazaki</maintainer>
+
+  <license>MIT</license>
+
+  <url type="website">https://github.com/zaki0929/raspimouse_pfot</url>
+
+  <author email="ryo.okazaki.0929@gmail.com">Ryo Okazaki</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_srvs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>std_srvs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+
+</package>
